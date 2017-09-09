@@ -3,12 +3,12 @@ BAVC workshop and other lessons
 
 # Lesson Notes
 
-## What PHP (personal home page) is?
-
+## What is PHP (personal home page)?
+    -PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. (source: https://en.wikipedia.org/wiki/PHP)
     -Go to a website
         -go to internet and directs to 3 servers (web, app, and database)
         -go to web server (apache, NGNIX, etc. & html/css/javascript/angularJS/ReactJS/jquery)
-        -go to app server (python, java, ruby, node) renders page in html/css/javascript
+        -go to app server (PHP, python, java, ruby, node) renders page in html/css/javascript
         -go to database server (oracle, mysql)
     -LAMP stack (linux, apache, mysql, php), MAMP, WAMP (Mac or windows) for example 
     -front end handles web server primarilly
