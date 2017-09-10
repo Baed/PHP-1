@@ -18,5 +18,12 @@
 			"<br />".
 		 	 $_GET["lastname"];
 		?>
+		<?	
+			print "<strong>"
+			 {$_GET["firstname"]} 
+			print "<br />";
+		 	print $_GET["lastname"]; 
+		 	print "</strong>";
+		?>
 	</body>
 </html>

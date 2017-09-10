@@ -8,5 +8,6 @@
 		<?
 			print "Welcome to BAVC!";
 		?>
+	
 	</body>
 </html>
