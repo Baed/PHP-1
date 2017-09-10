@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Functions1</title>
+		<title>Functions2</title>
 	</head>
 	<body>
-		<?
+		<? /*
 		$test1 = 99;
 		$test2 = 75;
 		$test3 = 82;
 
 		$theAverage1 = ($test1 + $test2 + $test3) / 3;
 		print("The average score is: {$theAverage1}<br>");
-
+		*/
 
 		function getAverage($test1, $test2, $test3)
 		{
@@ -21,6 +21,7 @@
 		}
 
 		getAverage(25,30,20);
+		print ("The average is STILL: " .$theAverage2);
 		?>
 
 	</body>
