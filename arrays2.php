@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Arrays</title>
+	<title></title>
 </head>
 <body>
-	<?
-		//associative array, key value pairs
-		//in other languages, can be a hashmap
-		$myHeroes = array("afghan" => "Elia", "japanese" => "Hanzo", "canadien" => "Wolverine", "amazonian" => "Wonder Woman", "californian" => "Hulk", "asgardian" => "Thor");
 
-		print( $myHeroes["asgardian"] ); 
-		print( $myHeroes["afghan"] ); 
-		print( $myHeroes["amazonian"] ); 
+<?
+
+	$myBeatles = array(
+						"bass" => "Paul McCartney",
+						"electricguitar" => "George Harrison",
+						"drums" => "Ringo Starr",
+						"acousticguitar" => "John Lennon",
+						"lectricguitar" => "Eric Clapton"
+					  );
 
 
-	?>
+	print( $myBeatles[ "electricguitar" ] );
+	print( $myBeatles[ "Electricguitar" ] );
+
+?>
 
 </body>
 </html>

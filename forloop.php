@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Switchcase</title>
+	<title></title>
 </head>
 <body>
-	
-	<?
-		for( $i = 0; $i < 5; $i++)
-		{
-			print( "Hello");
-			print( "<br>");
-		}
-	?>
-	<br>
 
+<?
+
+	for( $i = 0; $i < 30; $i++ )
+	{
+		print( "Hello" );
+		print( "<br>" );
+	}
+
+?>
 
 </body>
 </html>

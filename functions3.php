@@ -1,25 +1,15 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Functions3</title>
-	</head>
-	<body>
-		<? 
-		$favoriteColor = "purple";
+<?
+	$favoriteColor = "purple";
 
-		function drawInfo($myColor)
-		{
-			$favoriteColor = $myColor;
-		
-			print("Your favorite color is: " . $favoriteColor . "<br>");
-		}
 
-		drawInfo("yellow");
+	function drawInfo( $myColor )
+	{
+		$favoriteColor = $myColor;
+		print( "<br>Your favorite color is: " . $favoriteColor );
+	}
 
-		print( "your NEW favorite color is: " . $favoriteColor);
+	drawInfo( "yellow" );
 
-		//drawInfo();
-		?>
+	print( "Your NEW favorite color is: " . $favoriteColor );
 
-	</body>
-</html>
+?>

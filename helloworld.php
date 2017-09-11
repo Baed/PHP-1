@@ -5,9 +5,10 @@
 	</head>
 	<body>
 		Welcome to PHP!
-		<?
-			print "Welcome to BAVC!";
+
+		<?			
+			print "<strong>Hello!</strong>";
 		?>
-	
+
 	</body>
 </html>

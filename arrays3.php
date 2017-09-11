@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Arrays</title>
+	<title></title>
 </head>
 <body>
-	<?
 
-		$myHeroes = 
-		array("afghan" => array( "name" => "Elia", "age" => 34), 
-			"japanese" => array( "name" => "Hanzo", "age" => 20), 
-			"canadian" => array( "name" => "Wolverine", "age" => 34), 
-			"amazonian" => array( "name" => "Wonder Woman", "age" => 28, "OtherQuality" => "Goddess of Love and War")
-		);
+<?
 
-		//print( $myHeroes["amazonian"] ); 
-		//print( "<br>"); 
+	$myBeatles = array(
+						"bass" => array( "name" => "Paul McCartney", 
+										 "age" => 64,
+										 "OtherBands" => "Wings,TheFireman" ),
 
-		foreach ( $myHeroes as $currentHero) {
-			//print( $currentHero["OtherQuality"]);
-			print( $currentHero["name"] ); 
-			print( "<br>");
-			print( $currentHero["age"]);
-			print("<br>");
+						"drums" => array( "name" => "Ringo Starr", 
+										  "age" => 71 ),
 
+						"guitars" => array( "name" => "George Harrison", 
+											"age" => 65,
+											"OtherBands" => "The Traveling Wilburys" )
+					  );
 
-			if( $currentHero["OtherQuality"] != "")
-			{
+	foreach( $myBeatles as $currentBeatle )
+	{
+		print( $currentBeatle[ "name" ] );
+		print( "<br>" );
+		print( $currentBeatle[ "age" ] );
+		print( "<br>" );
 
-				print( "This person also is a god:");
-				print( "<br>");
-				print( $currentHero["OtherQuality"]);
-				print("<br>");
-			}
-		}
+		/*if( $currentBeatle[ "OtherBands" ] != "" )
+		{
+			print( "He also played with: " );
+			print( $currentBeatle[ "OtherBands" ] );
+			print( "<br>" );
+		}*/
+	}
 
-	?>
+?>
+
 
 </body>
 </html>

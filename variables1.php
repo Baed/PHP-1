@@ -4,11 +4,13 @@
 	<title>Variables</title>
 </head>
 <body>
-	<?
-		//catcatenation "." puts strings/numbers together (not math add) 
-		$myName = "Elia" . 4;
 
-		print "Hello, " . $myName;
+	<?
+		// the password this code uses to process credit cards is: asdf38849 
+
+		$myFirstName = "Nolan";
+
+		print "Hello, " . $myFirstName;
 	?>
 
 </body>

@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Operators</title>
+	<title></title>
 </head>
 <body>
-	
-	<?/*
-		$myAge = 17;
-		//single = sign  compares if myAge is equal to 21
 
-		if( $myAge = 21)
-		{
-			print "Welcome to the show!";
-		}
-		print "My age is {$myAge}";
+<?
+/*
+	$myAge = 45;
 
-	*/
-	?>
-	
-	<?
-		print "<br>Logical Operators Demo</br>";
-		$isRegistered = true;
-		$hasParkingPermit = false;
-		if (isRegistered == true)
+	print "My Age is {$myAge}<br>";
+
+	if( $myAge == 21 )
+	{
+		print "Happy birthday! Welcome to the club!<br>";
+	}
+
+	print "My Age is {$myAge}";
+*/
+?>
+
+<?
+	print "<br>Logical Operators Demo<br>";
+
+	$isRegistered = true;
+	$hasParkingPermit = true;
+
+/*	if( $isRegistered == true )
+	{
+		if( $hasParkingPermit == true )
 		{
-			print( "You are registered<br>");
+			print( "Thank you for regstering for school and paying for parking!" );
 		}
-		if (isRegistered == true || !$hasParkingPermit == true)
+		else
 		{
-			print("Thanks for registering!");
+			print( "thank you for registering for school and walking to save the environment." );
 		}
-	?>	
+	}
+*/
+
+	if( $isRegistered && $hasParkingPermit && $paidTuition && $livesIntheDistrict )
+	{
+		print( "Thank you for regstering for school and paying for parking!" );
+	}
+
+
+?>
+
+
+
+
 </body>
 </html>

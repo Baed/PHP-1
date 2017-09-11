@@ -4,9 +4,6 @@
 		<title>Current Time</title>
 	</head>
 	<body>
-		Current time is:
-		<?
-			print time();
-		?>
+		The current time is: <? print time(); ?>.
 	</body>
 </html>
