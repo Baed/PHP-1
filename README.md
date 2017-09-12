@@ -1,5 +1,5 @@
 # PHP
-BAVC workshop and other lessons
+BAVC workshop and other lessons/notes on Personal Home Page (PHP) language.
 
 # Lesson Notes
 
